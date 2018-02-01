@@ -1,0 +1,71 @@
+.game-image {
+    max-width: 100%;
+    margin: auto;
+}
+
+.game-image::after {
+    display: block;
+    position: relative;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0, black 100%);
+    margin-top: -150px;
+    height: 150px;
+    width: 100%;
+    opacity: .8;
+    content: '';
+}
+
+#popover {
+    width: 94%;
+    background: black;
+    position: relative;
+    margin-top: -110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+h4 {
+    color: #8DF6FA;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+ion-card h4 {
+    font-weight: bold !important;
+    color: #0BAAB0;
+    margin-bottom: 15px !important;
+}
+
+ionc-card p {
+    color: gray !important;
+}
+
+ion-col p {
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+ion-col p.larger-res {
+    font-size: 2em;
+    margin-top:0 ;
+}
+
+ion-scroll {
+    height: 200px;
+}
+
+#screenslider {
+
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 25px;
+}

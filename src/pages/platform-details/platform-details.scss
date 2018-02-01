@@ -1,0 +1,45 @@
+.info {
+    width: 94%;
+    background: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+}
+
+h4 {
+    color: #8DF6FA;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+ion-card h4 {
+    font-weight: bold !important;
+    color: #0BAAB0;
+    margin-bottom: 15px !important;
+}
+
+ionc-card p {
+    color: gray !important;
+}
+
+ion-col p {
+    color: white;
+    margin: 10px 0 0 0;
+}
+
+ion-col p.larger-res {
+    font-size: 2em;
+    margin-top:0 ;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    margin-top: 25px;
+}

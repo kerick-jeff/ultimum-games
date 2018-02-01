@@ -1,14 +1,70 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Ionic Blank
+      <img src="assets/imgs/logoicon.png" id="logo"> <span id="genre-name">{{ title }}</span>
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-start (click)="openFavorites()" class="btn-txt">
+        <ion-icon name='star'></ion-icon>
+        Favs
+      </button>
+      <button ion-button icon-start (click)="filterPage()" class="btn-txt">
+        <ion-icon name='funnel'></ion-icon>
+        Filter
+      </button>
+      <button ion-button icon-only (click)="showSearchBox()">
+        <ion-icon name='search'></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+<ion-content>
+
+  <ion-searchbar *ngIf="showSearch" (keyup.enter)="searchGames($event)" placeholder="Search for games..."></ion-searchbar>
+
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="Pull to refresh"
+      refreshingSpinner="circles"
+      refreshingText="Loading Games...">
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <div *ngIf="games" class="card-background-page">
+    <ion-card *ngFor="let game of games" [@fadeOut]>
+      <div *ngIf="game.screenshots; then gamescreen else noscreen"></div>
+      
+      <ng-template #gamescreen>
+        <div class="game-image">
+          <img src="https://images.igdb.com/igdb/image/upload/t_screenshot_med_2x/{{ game.screenshots[0].cloudinary_id }}.jpg" class="tinted" />
+        </div>
+      </ng-template>
+
+      <ng-template #noscreen>
+        <div class="game-image">
+          <img src="assets/imgs/blank.png" class="tinted" />
+        </div>
+      </ng-template>
+
+      <div *ngIf="favorites.indexOf(game.id) == -1; then fav else remove"></div>
+
+      <ng-template #fav>
+        <button ion-button outline medium color="primary" icon-only (click)="favorite(game.id)">
+          <ion-icon name="star"></ion-icon>
+        </button>
+      </ng-template>
+
+      <ng-template #remove>
+        <button ion-button medium color="primary" icon-only (click)="removeFavorite(game.id)">
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </ng-template>
+
+      <div class="card-title" (click)="detailsPage(game.id)"><strong style="cursor: pointer">{{ game.name }}</strong></div>
+      <div class="card-subtitle" *ngIf="game.release_dates">{{ game.release_dates[0].m }} / {{ game.release_dates[0].y }}</div>
+
+    </ion-card>
+  </div>
 </ion-content>

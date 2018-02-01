@@ -1,0 +1,47 @@
+<ion-header color="primary">
+  <ion-navbar>
+    <div *ngIf="platform">
+      <ion-title color="primary">{{ platform.name }}</ion-title>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+  <div *ngIf="platform">
+    <ion-card padding >
+      <h4>Platform Summary</h4>
+      <div *ngIf="platform.summary; else nosummary">
+        <p>{{ platform.summary }}</p>
+      </div>
+      <ng-template #nosummary>
+        <p>NULL</p>
+      </ng-template>
+    </ion-card>
+
+    <div class="info">
+      <ion-grid padding>
+        <ion-row>
+          <ion-col col-6>
+            <h4>Website</h4>
+            <div *ngIf="platform.website; else nowebsite">
+              <button ion-button (click)="launchSite(platform.website)" small>Visit</button>
+            </div>
+            <ng-template #nowebsite>
+              <p>NONE</p>
+            </ng-template>
+          </ion-col>
+          <ion-col col-6>
+            <h4>Generation</h4>
+            <div *ngIf="platform.generation; else nogeneration">
+              <p>{{ platform.generation }}</p>
+            </div>
+            <ng-template #nogeneration>
+              <p>N/A</p>
+            </ng-template>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>

@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Ultimum Games</ion-title>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content padding>
+  <div id="about">
+    <h4>{{ name }}</h4>
+    <p>The Ultimate Game place</p>
+    <small>Version {{ version }}</small>
+  </div>
+
+  <button ion-button block (click)="share()" color="light">Share</button>
+  <button ion-button block (click)="rate()" color="warning">Rate Us</button>
+</ion-content>
