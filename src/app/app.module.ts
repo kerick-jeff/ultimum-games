@@ -14,36 +14,35 @@ import { SocialSharing } from '@ionic-native/social-sharing';
 import { AppVersion } from '@ionic-native/app-version';
 import { AdMobFree } from '@ionic-native/admob-free';
 import { Network } from '@ionic-native/network';
+import { CacheModule } from 'ionic-cache';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { PlatformsPage } from '../pages/platforms/platforms';
-import { MiscPage } from '../pages/misc/misc';
 import { AlertProvider } from '../providers/alert/alert';
 import { RateProvider } from '../providers/rate/rate';
 import { DataProvider } from '../providers/data/data';
 import { AdsProvider } from '../providers/ads/ads';
+import { HomePageModule } from '../pages/home/home.module';
+import { PlatformsPageModule } from '../pages/platforms/platforms.module';
+import { MiscPageModule } from '../pages/misc/misc.module';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    PlatformsPage,
-    MiscPage
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     HttpModule,
     IonicModule.forRoot(MyApp),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    CacheModule.forRoot(),
+    HomePageModule,
+    PlatformsPageModule,
+    MiscPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    PlatformsPage,
-    MiscPage
   ],
   providers: [
     StatusBar,
@@ -60,7 +59,7 @@ import { AdsProvider } from '../providers/ads/ads';
     AdsProvider,
     RateProvider,
     AlertProvider,
-    Network
+    Network,
   ]
 })
 export class AppModule {}

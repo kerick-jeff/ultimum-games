@@ -1,0 +1,46 @@
+{
+  "_from": "cordova-plugin-apprate",
+  "_id": "cordova-plugin-apprate@1.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-Dyu89oBzjpcgRel4d3EEj2IKu8U=",
+  "_location": "/cordova-plugin-apprate",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-apprate",
+    "name": "cordova-plugin-apprate",
+    "escapedName": "cordova-plugin-apprate",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-apprate/-/cordova-plugin-apprate-1.3.0.tgz",
+  "_shasum": "0f2bbcf680738e972045e9787771048f620abbc5",
+  "_spec": "cordova-plugin-apprate",
+  "_where": "/home/kerick/Documents/ionic/upcoming-g",
+  "bugs": {
+    "url": "https://github.com/pushandplay/cordova-plugin-apprate/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cordova": "*"
+  },
+  "deprecated": false,
+  "description": "A plugin to provide rate this app functionality into your Cordova / Phonegap application<br>",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cordovacli": "*"
+  },
+  "homepage": "https://github.com/pushandplay/cordova-plugin-apprate#readme",
+  "name": "cordova-plugin-apprate",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushandplay/cordova-plugin-apprate.git"
+  },
+  "version": "1.3.0"
+}

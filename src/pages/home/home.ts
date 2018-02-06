@@ -7,6 +7,7 @@ import { Keyboard } from '@ionic-native/keyboard';
 import { DataProvider } from '../../providers/data/data';
 import { AdsProvider } from '../../providers/ads/ads';
 import { AlertProvider } from '../../providers/alert/alert';
+import { CacheService } from 'ionic-cache';
 
 const FAVORITES = 'favorites';
 const GENRE = 'genre';
@@ -14,7 +15,7 @@ const FILTER = 'filter';
 const TITLE = 'title';
 
 @IonicPage()
-@Component({
+@Component({ 
   selector: 'page-home',
   templateUrl: 'home.html',
   animations: [
@@ -54,10 +55,9 @@ export class HomePage {
     public modalCtrl: ModalController,
     public keyboard: Keyboard,
     private adsProvider: AdsProvider,
-    private alertProvider: AlertProvider
-  ) {
-    
-  }
+    private alertProvider: AlertProvider,
+    private cache: CacheService
+  ) { }
 
   ionViewWillUnload() {
     this.adsProvider.presentInterstitialAd()
@@ -121,12 +121,20 @@ export class HomePage {
 
   private getGames() {
     this._data.getGames(this.offset)
-      .subscribe(res => this.games = res)
+      .subscribe(res => {
+        this.games = res
+      }, err => {
+        this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
+      })
   }
 
   private getComingSoonGames() {
     this._data.getComingSoonGames(this.offset)
-      .subscribe(res => this.games = res)
+      .subscribe(res => {
+        this.games = res
+      }, err => {
+        this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
+      })
   }
 
   private getGamesForGenre() {
@@ -135,17 +143,17 @@ export class HomePage {
         let genre = val
 
         this._data.getGamesForGenre(genre, this.offset)
-          .subscribe(res => this.games = res)
+          .subscribe(res => {
+            this.games = res
+          }, err => {
+            this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
+          })
       }
     })
   }
 
   doRefresh(refresher) {
-    console.log('Begin async operation', refresher);
-
     setTimeout(() => {
-      console.log('Async operation has ended');
-
       this.offset += 1
       
       switch (this.title) {
@@ -157,7 +165,8 @@ export class HomePage {
           this.getComingSoonGames()
           break;
 
-        case "Favorites": // Do nothing because all favorites in favorites array will be displayed at same time
+        case "Favorites": 
+          // Do nothing because all favorites in favorites array will be displayed at same time
           break;
           
         default:
@@ -166,25 +175,21 @@ export class HomePage {
               this._data.getGenre(val)
                 .subscribe(res => {
                   let _genre = res
-                  console.log(_genre)
                   if(_genre[0].name == this.title) {
-                    console.log("genre: " + _genre)
                     this.getGamesForGenre()
                   } else { // Query search results rather
-                    console.log("search: " + this.title)
                     this.search(this.title, this.offset)
                   }
+                }, err => {
+                  this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
                 })
             } else { // Query search results rather
-              console.log("search: " + this.title)
               this.search(this.title, this.offset)
             }
           })
-
           break;
       }      
 
-      // this.getGamesForGenre(this.offset)
       refresher.complete();
     }, 2000);
   }
@@ -192,10 +197,24 @@ export class HomePage {
   openFavorites() {
     this.storage.get(FAVORITES).then((val) => {
       this.title = 'Favorites'
-
+      
       if(val.length != 0) {
-        this._data.getFavorites(val)
-          .subscribe(res => this.games = res)
+        let loader = this.loadingCtrl.create({
+          content: 'Getting Favorites...'
+        })
+    
+        loader.present().then(() => {
+          this._data.getFavorites(val)
+          .subscribe(res => {
+            this.games = res
+          }, err => {
+            this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
+          })
+    
+          setTimeout(() => {
+            loader.dismiss()
+          }, 3000)
+        })
       } else {
         this.games.length = 0
         this.alertProvider.showAlert("No Favorites", "You haven't selected any games as your favorite yet!")
@@ -216,15 +235,21 @@ export class HomePage {
       return ar.indexOf(item) === i
     })
 
-    this.storage.set(FAVORITES, this.favorites)
+    this.storage.set(FAVORITES, this.favorites).then(() => {
+      // Invalidate favorites group cached data so that api can request new data
+      this.cache.clearGroup("favorites") 
+    })
   }
 
   removeFavorite(game) {
     this.favorites = this.favorites.filter((item) => {
       return item !== game
     })
-
-    this.storage.set(FAVORITES, this.favorites)
+    
+    this.storage.set(FAVORITES, this.favorites).then(() => {
+      // Invalidate favorites group cached data so that api can request new data
+      this.cache.clearGroup("favorites") 
+    })
   }
 
   searchGames(e) {
@@ -232,9 +257,7 @@ export class HomePage {
     if(term != '') {
       this.keyboard.close()
       this.title = term
-
       this.showSearch = false
-
       this.offset = 0
       this.search(term, this.offset)
     } else {
@@ -243,8 +266,22 @@ export class HomePage {
   }
 
   private search(term, offset) {
-    this._data.searchGames(this.title, this.offset)
-      .subscribe(res => this.games = res)
+    let loader = this.loadingCtrl.create({
+      content: 'Searching...'
+    })
+
+    loader.present().then(() => {
+      this._data.searchGames(this.title, offset)
+        .subscribe(res => {
+          this.games = res
+        }, err => {
+          this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
+        })
+
+      setTimeout(() => {
+        loader.dismiss()
+      }, 3000)
+    })
   }
 
   filterPage() {
@@ -282,7 +319,7 @@ export class HomePage {
 
       setTimeout(() => {
         loader.dismiss()
-      }, 2000)
+      }, 3000)
     })
   }
 }

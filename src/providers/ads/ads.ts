@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 import { AdMobFree, AdMobFreeBannerConfig, AdMobFreeInterstitialConfig } from '@ionic-native/admob-free';
 
-const BANNER_AD = "ca-app-pub-3940256099942544/6300978111";
-const INTERSTITIAL_AD = "ca-app-pub-3940256099942544/1033173712";
+const BANNER_AD = "ca-app-pub-4777737717356698/5103286517";
+const INTERSTITIAL_AD = "ca-app-pub-4777737717356698/9273970977";
 
 @Injectable()
 export class AdsProvider {

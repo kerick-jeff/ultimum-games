@@ -6,6 +6,7 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 
 import { DataProvider } from '../../providers/data/data';
 import { AdsProvider } from '../../providers/ads/ads';
+import { AlertProvider } from '../../providers/alert/alert';
 
 @IonicPage()
 @Component({
@@ -42,7 +43,8 @@ export class DetailsPage {
     private _data: DataProvider,
     private iab: InAppBrowser,
     private youtube: YoutubeVideoPlayer,
-    private adsProvider: AdsProvider
+    private adsProvider: AdsProvider,
+    private alertProvider: AlertProvider
   ) {
     this.gameId = this.navParams.get("game")
   }
@@ -52,12 +54,18 @@ export class DetailsPage {
       .subscribe(res => {
         if(res[0].player_perspectives != undefined) { 
           this._data.getPerspective(res[0].player_perspectives[0])
-            .subscribe(res => this.perspective = res[0])
+            .subscribe(res => {
+              this.perspective = res[0]
+            }, err => {
+              this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
+            })
         } else { 
           this.perspective = undefined
         }
 
         this.game = res[0]
+      }, err => {
+        this.alertProvider.showAlert("No Internet", "Please make sure you are connected to the internet")
       })
   }
 
@@ -66,7 +74,9 @@ export class DetailsPage {
       this.adsProvider.presentInterstitialAd().then(() => {
         this.iab.create(url)
       })
-      .catch(e => console.log(e))
+      .catch(e => {
+        this.alertProvider.showAlert("Launch Issue", "Error while trying to launching site")
+      })
     }
   }
 
@@ -74,6 +84,8 @@ export class DetailsPage {
     this.adsProvider.presentInterstitialAd().then(() => {
       this.youtube.openVideo(video)
     })
-    .catch(e => console.log(e)) 
+    .catch(e => {
+      this.alertProvider.showAlert("Launch Issue", "Error while trying to play video")
+    }) 
   }
 }

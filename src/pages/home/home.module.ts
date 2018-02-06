@@ -14,5 +14,8 @@ import { DetailsPageModule } from '../details/details.module';
     FilterPageModule,
     DetailsPageModule
   ],
+  entryComponents: [
+    HomePage
+  ]
 })
 export class HomePageModule {}

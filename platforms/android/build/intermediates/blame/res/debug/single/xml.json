@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/res/merged/debug/xml/sharing_paths.xml",
+        "source": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/res/xml/sharing_paths.xml"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/build/intermediates/res/merged/debug/xml/sharing_paths.xml",
+        "source": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/res/xml/sharing_paths.xml"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/build/intermediates/res/merged/debug/xml/config.xml",
+        "source": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/res/xml/config.xml"
+    }
+]

@@ -9,6 +9,9 @@ import { MiscPage } from './misc';
   ],
   imports: [
     IonicPageModule.forChild(MiscPage),
+  ],
+  entryComponents: [
+    MiscPage
   ]
 })
 export class MiscPageModule {}

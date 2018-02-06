@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { AdsProvider } from '../../providers/ads/ads';
+import { AlertProvider } from '../../providers/alert/alert';
 
 const PLATFORM = "platform";
 
@@ -17,7 +18,8 @@ export class PlatformDetailsPage {
     public navCtrl: NavController,
     public navParams: NavParams,
     public iab: InAppBrowser,
-    private adsProvider: AdsProvider
+    private adsProvider: AdsProvider,
+    private alertProvider: AlertProvider
   ) {
     this.platform = navParams.get(PLATFORM)
   }
@@ -27,7 +29,9 @@ export class PlatformDetailsPage {
       this.adsProvider.presentInterstitialAd().then(() => {
         this.iab.create(url)
       })
-      .catch(e => console.log(e))
+      .catch(e => {
+        this.alertProvider.showAlert("Launch issue", "Error while launching site")
+      })
     }
   }
 }

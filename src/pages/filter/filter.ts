@@ -11,6 +11,7 @@ const FILTEROPTIONS: string[] = [
 
 const TITLE = "title";
 const FILTER = 'filter';
+const GENRE = "genre";
 
 @IonicPage()
 @Component({
@@ -56,6 +57,12 @@ export class FilterPage {
         this.storage.set(FILTER, this.currentFilter).then(() => {
           this.storage.set(TITLE, this.currentFilter).then(() => {
             this.callback(true).then(() => {
+              this.storage.get(GENRE).then((val) => {
+                if(val) {
+                  this.storage.remove(GENRE)
+                }
+              })
+
               this.navCtrl.pop()
             })
           })
@@ -65,6 +72,12 @@ export class FilterPage {
         this.storage.set(FILTER, this.currentFilter).then(() => {
           this.storage.set(TITLE, 'Ultimum').then(() => {
             this.callback(true).then(() => {
+              this.storage.get(GENRE).then((val) => {
+                if(val) {
+                  this.storage.remove(GENRE)
+                }
+              })
+
               this.navCtrl.pop()
             })
           })

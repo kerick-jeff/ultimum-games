@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Game Platforms</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let platform of platforms">
+      <h2>{{ platform.name }}</h2>
+      <p>{{ platform.summary }}</p>
+      <p>
+        <button ion-button outline item-end (click)="platformSelected(platform)">View</button>
+      </p>
+    </ion-item>
+    <ion-item *ngIf="more">
+      <button (click)="loadMore()" ion-button id="load-more">Next</button>
+    </ion-item>
+  </ion-list>
+</ion-content>

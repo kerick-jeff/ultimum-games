@@ -11,6 +11,11 @@
     <small>Version {{ version }}</small>
   </div>
 
-  <button ion-button block (click)="share()" color="light">Share</button>
-  <button ion-button block (click)="rate()" color="warning">Rate Us</button>
+  <ion-fab right bottom>
+    <button ion-fab color="secondary"><ion-icon name="arrow-dropleft-circle"></ion-icon></button>
+    <ion-fab-list side="left">
+      <button (click)="share()" ion-fab color="info" title="Share With Friends"><ion-icon name="share"></ion-icon></button>
+      <button (click)="rate()" ion-fab title="Rate Us"><ion-icon name="star"color="warning" ></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>  
 </ion-content>

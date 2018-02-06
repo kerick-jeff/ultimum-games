@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar color="primary">
     <ion-title>
-      <img src="assets/imgs/logoicon.png" id="logo"> <span id="genre-name">{{ title }}</span>
+      <img src="assets/imgs/icon.png" id="logo"> <span id="title">{{ title }}</span>
     </ion-title>
     <ion-buttons end>
       <button ion-button icon-start (click)="openFavorites()" class="btn-txt">
@@ -63,7 +63,7 @@
       </ng-template>
 
       <div class="card-title" (click)="detailsPage(game.id)"><strong style="cursor: pointer">{{ game.name }}</strong></div>
-      <div class="card-subtitle" *ngIf="game.release_dates">{{ game.release_dates[0].m }} / {{ game.release_dates[0].y }}</div>
+      <div class="card-subtitle" *ngIf="game.first_release_date">{{ game.first_release_date | date: shortDate }}</div>
 
     </ion-card>
   </div>

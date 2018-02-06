@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_next_item.png",
+        "source": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/res/drawable-xxhdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_remove.png",
+        "source": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/res/drawable-xxhdpi/ic_action_remove.png"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_next_item.png",
+        "source": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/res/drawable-xxhdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_previous_item.png",
+        "source": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_remove.png",
+        "source": "/home/kerick/Documents/ionic/upcoming-g/platforms/android/res/drawable-xxhdpi/ic_action_remove.png"
+    },
+    {
+        "merged": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_previous_item.png",
+        "source": "/home/kerick/Documents/ionic/ultimum-games/platforms/android/res/drawable-xxhdpi/ic_action_previous_item.png"
+    }
+]

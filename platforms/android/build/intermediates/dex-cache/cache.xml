@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/libs/openyoutubeactivity.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="5ae2d44e1b17147e0c9f8dcdedb94520238408cb">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/openyoutubeactivity_1733227be87f0845f836691b95bf9b73bbc3b273.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e7f890dd2539b7f2582f450f0721e2dea6ae510c">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-11.0.4_548a07fa7a8a7316c269316654a20013837649d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_06fb98038b4a88ead30bbf190be44c8da2a6a929.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.0.4_5a38a36f687bd33064ed116fea3e2e6382535b6a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2c73e2a93e00abd240e495c1e62217e53904a3f3">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-11.0.4_fb6a30bbf76f6ce67c8bb6208f3b8cd1b90a3364.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e237cbc847dd50e8426ce020ab01dcf7eedcb827">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/release/CordovaLib-6.3.0-release_d2ebdd422b75457d9166e24e2670243d47ebdb44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.0.4_561387ac5dbdb28df782f2150a94e1ae8b3e03a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_4e1de2259a8fd7b2e6bff2f5da73588be7ffb9b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_082eff14c69a17a063b12167135be11aa7f7a574.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.0.4_427f68b5ac7e6ac4188d2a13c790b56fd2151a99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f2cb88e7e28736d44e7e643deb80c9af1c3662c8">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-11.0.4_f6f7598b7497ede969d17fa6e36572a18ba4f18d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/libs/sqlite-connector.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/sqlite-connector_28a292221e01d689eca23cca271ca24f4874bb69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_43bc6a3610aa3b214a05a3967ebd2792645cda7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_9e8cd79fcfcf30e99c77c2ca5236a23a838d6149.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_10803798a70072ddddeae4e4a9629f7bc5bec1aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="34c23b5894b4f24d566bfc33e0e25462c6436b78">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-11.0.4_4c0c69163ffbcca738dedb2bb5e0523dffb7325c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="416fb9ee2fd6e7af0bba04b01d90cb475b1e2074">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-11.0.4_7940b82a56a1d096cca8344977e65037308ea533.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_e707fd0da3b9d85b4c61e1acde1e2875fc123749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_95a99f22d8b913d71d9f68eec1b491a06deeb6e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/debug/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="48203a81ad4cb4c85aef29940f5ab6ceb80c5fdc">
+        <dex dex="/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-6.3.0-debug_97e5a47e59a1940bcaceb19cc7b46c4ecb0f0dbf.jar" />
+    </item>
+
+</items>

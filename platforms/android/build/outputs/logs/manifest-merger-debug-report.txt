@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:2:102-129
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:2:74-101
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:2:11-45
+	android:versionCode
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:2:46-73
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:2:130-188
+supports-screens
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:4:22-64
+application
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:5:5-18:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.4/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.4/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:5:81-113
+	android:supportsRtl
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:5:114-140
+	android:hardwareAccelerated
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:5:53-80
+activity#com.ultimum.games.MainActivity
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:6:166-193
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:9:27-74
+activity#com.keyes.youtube.OpenYouTubePlayerActivity
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:12:9-118
+	android:screenOrientation
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:12:78-115
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:12:19-77
+activity#com.bunkerpalace.cordova.YouTubeActivity
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:9-321
+	android:label
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:97-134
+	android:launchMode
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:135-165
+	android:windowSoftInputMode
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:276-318
+	android:configChanges
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:19-96
+	android:theme
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:222-275
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:13:166-221
+provider#nl.xservices.plugins.FileProvider
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:14:9-16:20
+	android:authorities
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:14:19-74
+		INJECTED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:14:100-134
+	android:exported
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:14:75-99
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:14:135-183
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:15:13-115
+	android:resource
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:15:75-112
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:15:24-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:17:9-233
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:17:19-128
+	android:theme
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:17:182-230
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:17:129-181
+uses-sdk
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:19:5-74
+MERGED from [com.google.android.gms:play-services-ads:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/11.0.4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/11.0.4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/11.0.4/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/11.0.4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.0.4/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/AndroidManifest.xml:21:5-23:58
+MERGED from [org.apache.cordova:CordovaLib:6.3.0:debug] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/debug/AndroidManifest.xml:25:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:25.2.0] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:19:42-71
+	android:minSdkVersion
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:19:15-41
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/11.0.4/AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from /home/kerick/Documents/ionic/ultimum-games/platforms/android/AndroidManifest.xml:22:22-76
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] /home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.0.4/AndroidManifest.xml:20:20-65

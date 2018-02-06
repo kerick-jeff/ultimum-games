@@ -1,0 +1,4 @@
+#Sun Feb 04 22:40:02 WAT 2018
+base.0=/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/home/kerick/Documents/ionic/ultimum-games/platforms/android/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
