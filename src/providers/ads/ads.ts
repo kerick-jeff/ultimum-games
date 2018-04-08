@@ -14,7 +14,6 @@ export class AdsProvider {
   public presentBannerAd() {
     const bannerConfig: AdMobFreeBannerConfig = {
       id: BANNER_AD,
-      isTesting: true,
       autoShow: true
     };
 
@@ -26,7 +25,6 @@ export class AdsProvider {
   public presentInterstitialAd() {
     const interstitialConfig: AdMobFreeInterstitialConfig = {
       id: INTERSTITIAL_AD,
-      isTesting: true,
       autoShow: true
     }
 

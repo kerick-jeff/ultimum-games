@@ -29,9 +29,9 @@ export class MiscPage {
 
   public share() {
     this.socialSharing.shareWithOptions({
-      message: "Hello Pal! This is the fun, 'The Ultimate Game Place'. Download this app from Google Playstore and catch the feel like others...",
+      message: "Hello Pal! This is the fun, 'The Ultimate Game Place'. Download the app from Google Playstore and catch the feel like others...",
       subject: 'Ultimum Games',
-      url: "market://details?id=com.ultimum.games",
+      url: "https://play.google.com/store/apps/details?id=com.ultimum.games",
       chooserTitle: "Share With Friends"
     })
   }
