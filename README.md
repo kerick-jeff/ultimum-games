@@ -14,6 +14,8 @@ The app can be downloaded from Google Playstore: https://play.google.com/store/a
 * Angular 4
 * Data provider by [IGDB.COM](http://igdb.com/)
 
+`Copyright 2018, Fru Kerick. All rights reserved.`
+
 # Sample screenshots
 ![Home](/screenshots/home.png)
 ![Platforms](/screenshots/platforms.png)
