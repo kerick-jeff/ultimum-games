@@ -12,7 +12,7 @@ The app can be downloaded from Google Playstore: https://play.google.com/store/a
 # Built With
 * Ionic Framework v3
 * Angular 4
-* Data provider by IGDB.COM
+* Data provider by [IGDB.COM](http://igdb.com/)
 
 # Sample screenshots
 ![Home](/screenshots/home.png)
