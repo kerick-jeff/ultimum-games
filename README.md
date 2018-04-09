@@ -14,3 +14,16 @@ The app can be downloaded from Google Playstore: https://play.google.com/store/a
 * Angular 4
 
 # Sample screenshots
+![Home](/screenshots/home.png)
+![Platforms](/screenshots/platforms.png)
+![Misc](/screenshots/misc.png)
+![Genre](/screenshots/genre.png)
+![Favorites](/screenshots/favs.png)
+![Search](/screenshots/search.png)
+![FarCry5](/screenshots/farcry5.png)
+![FarCry5 detail 1](/screenshots/farcryd1.png)
+![FarCry5 detail 2](/screenshots/farcryd2.png)
+![FarCry5 detail 3](/screenshots/farcryd3.png)
+![Quake](/screenshots/quake.png)
+![Quake Detail 1](/screenshots/quaked1.png)
+![Quake Detail 2](/screenshots/quaked2.png)
