@@ -1,7 +1,8 @@
 # Ultimum Games
-Video game profiler mobile application.
+Video game listing mobile application.
 Provides detailed information about video games.
-Gives users opportunity to save favorite games for feature lookup.
+Gives users opportunity to save favorite games for future lookup.
+Also provides information about unreleased games.
 
 # Prerequisites
 A smartphone running Android OS 4.4+ is required to run the app. 
